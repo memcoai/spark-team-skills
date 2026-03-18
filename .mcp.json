@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "spark": {
+      "type": "http",
+      "url": "https://spark.memco.ai/mcp"
+    }
+  }
+}
