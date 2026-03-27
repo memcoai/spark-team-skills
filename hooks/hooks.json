@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'Ensure you use the Spark CLI to assist you in your work. Check the spark-team-mcp-memory skill for more details.'"
+            "command": "echo 'Ensure you use Spark Memory to assist you in your work. Check the spark-team-memory skill for more details.'"
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark collective. Check the spark-team-mcp-memory skill for more details.'"
+            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark Memory. Check the spark-team-memory skill for more details.'"
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'Ensure you use the Spark CLI to assist you in your work. Check the spark-team-mcp-memory skill for more details.'"
+            "command": "echo 'Ensure you use the Spark Memory to assist you in your work. Check the spark-team-memory skill for more details.'"
           }
         ]
       }
@@ -39,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark collective. Check the spark-team-mcp-memory skill for more details.'"
+            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark Memory. Check the spark-team-memory skill for more details.'"
           }
         ]
       }

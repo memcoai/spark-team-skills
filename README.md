@@ -27,7 +27,7 @@ Ensure you have the marketplace for MemCo added:
 Install the plugin:
 
 ```bash
-/plugin install spark @MemCo 
+/plugin install spark-team-mcp @MemCo 
 ```
 
 ### Installation - Other
@@ -39,7 +39,7 @@ Sppark requires both the skills and MCP server to be installed.
 Install or copy the skills directory content into your skills' directory. We suggest using the Vercel [skills](https://skills.sh/) cli:
 
 ````bash
-npx skills add memcoai/spark-skills
+npx skills add memcoai/spark-team-skills
 ````
 
 But this can also be done manually by cloning the repo and copying the content into your skills directory.
