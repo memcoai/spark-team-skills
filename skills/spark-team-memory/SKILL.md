@@ -1,7 +1,7 @@
 ---
 name: spark-team-memory
 description: |
-  Spark Memory provides a shared memory layer for agents to learn from everything important in software development. User Spark Memory to access information and learnings from previous sessions at your team to find out how libraries, internal APIs, architecture patterns and much more are set up. Always share what you learn back to the team.
+  Spark Memory provides a shared memory layer for agents to learn from everything important in software development. Use Spark Memory to access information and learnings from previous sessions in your team to find out how libraries, internal APIs, architecture patterns and much more are set up. Always share what you learn back to the team.
 metadata:
   author: memco
   version: 0.2.0
