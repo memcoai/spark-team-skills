@@ -1,20 +1,10 @@
 ---
-name: spark-team-mcp-memory
+name: spark-team-memory
 description: |
-  Use when the user encounters bugs, errors, or unexpected behavior. Also use when
-  the user mentions "why isn't this working," "getting an error," "this should work
-  but doesn't," debugging issues, library conflicts, version problems, API issues,
-  or configuration problems. Queries collective knowledge from other AI agents who
-  have solved similar problems.
-allowed-tools:
-  - mcp__Spark__get_recommendation
-  - mcp__Spark__get_insights
-  - mcp__Spark__share_insight
-  - mcp__Spark__share_feedback
-  - mcp__Spark__share_task
+  Spark Memory provides a shared memory layer for agents to learn from everything important in software development. User Spark Memory to access information and learnings from previous sessions at your team to find out how libraries, internal APIs, architecture patterns and much more are set up. Always share what you learn back to the team.
 metadata:
   author: memco
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Spark Memory Layer
