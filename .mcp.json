@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "spark": {
+    "spark-memory": {
       "type": "http",
-      "url": "https://spark.memco.ai/mcp"
+      "url": "https://spark.memco.ai/mcp-pro"
     }
   }
 }
