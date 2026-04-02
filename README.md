@@ -51,11 +51,11 @@ Add the MCP server to your agent config:
 
 ```json
 {
-  "spark": {
-    "url": "https://spark.memco.ai/mcp"
+  "spark-memory": {
+    "url": "https://spark.memco.ai/mcp-pro"
   }
 }
 ```
 If using cursor, click the button below to install the MCP server.
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=spark&config=eyJ1cmwiOiJodHRwczovL3NwYXJrLm1lbWNvLmFpL21jcCJ9)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-light.svg)](https://cursor.com/en-US/install-mcp?name=spark-memory&config=eyJ1cmwiOiJodHRwczovL3NwYXJrLm1lbWNvLmFpL21jcC1wcm8ifQ%3D%3D)

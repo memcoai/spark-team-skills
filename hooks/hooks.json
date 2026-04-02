@@ -1,12 +1,45 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/session_start.sh"
+          }
+        ]
+      }
+    ],
     "UserPromptSubmit": [
       {
         "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'Ensure you use Spark Memory to assist you in your work. Check the spark-team-memory skill for more details.'"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/start.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/end.sh"
+          }
+        ]
+      }
+    ],
+    "TaskCreated": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/start.sh"
           }
         ]
       }
@@ -17,29 +50,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark Memory. Check the spark-team-memory skill for more details.'"
-          }
-        ]
-      }
-    ],
-    "SubagentStart": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'Ensure you use the Spark Memory to assist you in your work. Check the spark-team-memory skill for more details.'"
-          }
-        ]
-      }
-    ],
-    "SubagentStop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'If you have found new gotchas or solutions you were not previously aware of that are generalizable, please share them with the Spark Memory. Check the spark-team-memory skill for more details.'"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/end.sh"
           }
         ]
       }
